@@ -48,7 +48,7 @@ export default function AuthForm({ formState }) {
   useEffect(() => dispatch({ type: 'idle' }), [mode]);
 
   const onTrialClick = () => {
-    setEnteredEmail('guest@hotflix.com');
+    setEnteredEmail('trial@hbtv.co.ke');
     setEnteredPassword(process.env.NEXT_PUBLIC_TRIAL_ACCOUNT_PASSWORD);
     setMode('signin');
   };

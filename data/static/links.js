@@ -15,5 +15,5 @@ export default [
   { id: 14, text: 'Contact us' },
   { id: 15, text: 'Speed test' },
   { id: 16, text: 'Legal notices' },
-  { id: 17, text: 'Hotflix Originals' },
+  { id: 17, text: 'HBTV Originals' },
 ];

@@ -1,17 +1,17 @@
 export default [
   {
     id: 1,
-    header: 'What is Hotflix?',
-    body: 'Hotflix is a Netflix clone that comes with all basic functionalities Netflix offers.\n\nUsers can sign up, sign in, create, edit, delete their profile and watch a wide variety of latest TV shows as well as movies.',
+    header: 'What is HBTV?',
+    body: 'HBTV is a Netflix clone that comes with all basic functionalities Netflix offers.\n\nUsers can sign up, sign in, create, edit, delete their profile and watch a wide variety of latest TV shows as well as movies.',
   },
   {
     id: 2,
-    header: 'What tech is Hotflix built on?',
-    body: 'Hotflix uses React and Next.js for its javascript framework, styled-components for css style, NextAuth for authentication and route protection.\n\nIt also utilizes MongoDb along with localStorage to save and retrieve user data.',
+    header: 'What tech is HBTV built on?',
+    body: 'HBTV uses React and Next.js for its javascript framework, styled-components for css style, NextAuth for authentication and route protection.\n\nIt also utilizes MongoDb along with localStorage to save and retrieve user data.',
   },
   {
     id: 3,
-    header: 'What can I watch on Hotflix?',
+    header: 'What can I watch on HBTV?',
     body: 'Due to copyright issues, you can only watch trailers of TV shows and movies.',
   },
   {
@@ -21,7 +21,7 @@ export default [
   },
   {
     id: 5,
-    header: 'Why did I build Hotflix?',
+    header: 'Why did I build HBTV?',
     body: "I'm a recently started self taught front-end developer. I took on this project to showcase what I have learned, and demonstrate my abilities and an understanding of how modern web apps are created and implemented.\n\nI hope you like it!",
   },
 ];

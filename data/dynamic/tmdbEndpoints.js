@@ -12,7 +12,7 @@ export const TMDB = {
   TVShows: {
     sections: [
       {
-        title: 'Popular on Hotflix',
+        title: 'Popular on HBTV',
         endpoint: `/tv/popular?api_key=${API_KEY}`,
       },
       {
@@ -24,7 +24,7 @@ export const TMDB = {
         endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=10768&with_watch_providers=8&watch_region=AU`,
       },
       {
-        title: 'Hotflix Original',
+        title: 'HBTV Original',
         endpoint: `/discover/tv?api_key=${API_KEY}&with_networks=213&with_watch_providers=8&watch_region=AU`,
         size: 'large',
       },
@@ -86,7 +86,7 @@ export const TMDB = {
   movies: {
     sections: [
       {
-        title: 'Popular on Hotflix',
+        title: 'Popular on HBTV',
         endpoint: `/movie/popular?api_key=${API_KEY}&region=AU`,
       },
       {
@@ -98,7 +98,7 @@ export const TMDB = {
         endpoint: `/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1&region=AU`,
       },
       {
-        title: 'Hotflix Original',
+        title: 'HBTV Original',
         endpoint: `/discover/movie?api_key=${API_KEY}&with_networks=213&with_watch_providers=8&watch_region=AU`,
         size: 'large',
       },
