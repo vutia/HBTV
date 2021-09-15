@@ -7,7 +7,7 @@ export default function Account() {
   return (
     <>
       <Head>
-        <title>Hotfilx - create or sign in your account</title>
+        <title>HBTV - create or sign in your account</title>
       </Head>
       <Authentication />
     </>

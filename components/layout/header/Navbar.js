@@ -21,7 +21,7 @@ export default function Navbar({ url }) {
             <styled.Logo url={url}>
               <Image
                 src="/images/misc/logo.png"
-                alt="Hotflix logo"
+                alt="HBTV logo"
                 width={200}
                 height={65}
                 layout="responsive"
@@ -46,7 +46,7 @@ export default function Navbar({ url }) {
         </styled.Wrapper>
       )}
 
-      {url === '/' && <styled.SignIn href="/account">Sign in</styled.SignIn>}
+      {url === '/' && <styled.SignIn href="/account">Login</styled.SignIn>}
     </styled.Nav>
   );
 }
