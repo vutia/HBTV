@@ -19,11 +19,7 @@ export default function FooterContent() {
           ))}
         </styled.LinkContainer>
         <styled.Country>
-          ©Copyright by <a href="https://www.netflix.com">Netflix</a>. This
-          website is for learning and job hunting purpose only.{' '}
-          <i>
-            Logos, images, fonts and videos: Netflix, Inc. All Rights reserved.
-          </i>
+          ©Copyright by <a href="https://www.hbtv.co.ke">HBTV</a>. All rights reserved
         </styled.Country>
       </styled.Wrapper>
     </styled.ContentContainer>

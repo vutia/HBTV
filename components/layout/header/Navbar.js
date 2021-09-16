@@ -20,10 +20,10 @@ export default function Navbar({ url }) {
           <a>
             <styled.Logo url={url}>
               <Image
-                src="/images/misc/logo.png"
+                src="/images/misc/hbtv.png"
                 alt="HBTV logo"
                 width={200}
-                height={65}
+                height={95}
                 layout="responsive"
               />
             </styled.Logo>
