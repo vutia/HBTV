@@ -14,7 +14,7 @@ export default function Hero() {
     setIsLoading(true);
 
     await signIn('credentials', {
-      email: 'guest@hotflix.com',
+      email: 'trial@hbtv.co.ke',
       password: process.env.NEXT_PUBLIC_TRIAL_ACCOUNT_PASSWORD,
     });
   };
@@ -27,7 +27,7 @@ export default function Hero() {
         <styled.SubTitle>Watch anywhere. Cancel at any time.</styled.SubTitle>
         <Subscribe />
         <styled.Demo onClick={onSignInClick} disabled={isLoading}>
-          {isLoading ? <FormSpinner /> : 'Try Demo'}
+          {isLoading ? <FormSpinner /> : 'Continue without account'}
         </styled.Demo>
       </styled.Text>
     </styled.Hero>
